@@ -7,37 +7,70 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="RexMarket - Is a Premium Digital goods marketplace of Wordpress Themes and elementor Templates"
     />
+    <meta name="keywords" content="digital goods, digital marketplace, easy digital downloads, marketplace website, multi vendor, online marketplace, digital download, marketplace, best marketplace, best marketplace websites, building an online marketplace, digital goods marketplace, digital product marketplace, internet marketplace, marketplace html template, marketplace template, marketplace website template, online marketplace to sell, web marketplace, bootstrap 4 marketplace template, bootstrap marketplace, bootstrap marketplace template, digital marketplace html template, html marketplace template, marketplace bootstrap template, marketplace template bootstrap, marketplace template html, multi vendor html template, template marketplace bootstrap">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    
+    <title>RexMarket</title>
+    <!-- mycode here -->
+       <!-- Bootstrap css --> 
+   <link href="../assets/plugins/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Style css --> 
+   <link href="../assets/css/style.css" rel="stylesheet">
+   <link href="../assets/css/skin-modes.css" rel="stylesheet">
+   <!-- Font-awesome  css --> 
+   <link href="../assets/css/icons.css" rel="stylesheet">
+   <!--Select2 css --> 
+   <link href="../assets/plugins/select2/select2.min.css" rel="stylesheet">
+   <!-- Cookie css --> 
+   <link href="../assets/plugins/cookie/cookie.css" rel="stylesheet">
+   <!-- Owl Theme css--> 
+   <link href="../assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+   <!-- Custom scroll bar css--> 
+   <link href="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet">
+   <!-- Auto Complete css --> 
+   <link href="../assets/plugins/autocomplete/jquery.autocomplete.css" rel="stylesheet">
+   <!--Image-tooltip css--> 
+   <link href="../assets/plugins/image-tooltip/image-tooltip.css" rel="stylesheet">
+   <!-- Color Skin css --> 
+   <link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/color-skins/color6.css">
+   <!-- Switcher css --> 
+   <link href="../assets/switcher/css/switcher.css" rel="stylesheet">
+   <link href="../assets/switcher/demo.css" rel="stylesheet">
+   <script type="text/javascript">
+   </script> 
+   <meta http-equiv="imagetoolbar" content="no">
+   <style type="text/css">
+      <!-- input,textarea{-webkit-touch-callout:default;-webkit-user-select:auto;-khtml-user-select:auto;-moz-user-select:text;-ms-user-select:text;user-select:text} *{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:-moz-none;-ms-user-select:none;user-select:none} -->
+   </style>
+   
+   
+   <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style>
+    <!-- my code ends here -->
   </head>
-  <body>
+  <body class="headerstyle1" onload="preloader()">
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+   
+    <!-- my code here -->
+    <a href="#top" id="back-to-top" style="display: inline;"><i class="fa fa-long-arrow-up"></i></a>
+    
+    <!-- my code ends here -->
+    <div id="global-loader" style="display:block"> <img src="../assets/images/loader.svg" className="loader-img" alt="imgloader"  style="position: absolute;
+      left: 0;
+      right: 0;
+      text-align: center;
+      top: 45%;
+      margin: 0 auto;"/> </div>
+    <script>
+      var globalLoader = document.getElementById('global-loader');
+      function preloader(){
+        globalLoader.style.display = 'none';
+      }
+    </script>
   </body>
 </html>
